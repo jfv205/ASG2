@@ -1,8 +1,14 @@
-# validate postcode
+# validate_postcode.py
+# Version 0.0.1
+
 def validate_postcode(postcode):
 
-    """ Checks a string to determine if it is a valid postcode. Return boolean value where
-    True indicates the postcode is valid. """
+    """
+
+    Checks a string to determine if it is a valid postcode.
+    Returns a boolean value where True indicates the postcode is valid.
+
+    """
     
     # Inital validity set to False
     valid = False
