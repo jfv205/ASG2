@@ -2,7 +2,9 @@ def empty_list(list_a):
 
     '''
 
-    Checks whether list is empty for unit testing. Returns boolean value.
+    Checks whether list is empty for unit testing.
+
+    Returns boolean value.
 
     '''
 
@@ -12,3 +14,5 @@ def empty_list(list_a):
         return False
     else:
         return True
+
+    if list_b

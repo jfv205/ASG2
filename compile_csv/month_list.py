@@ -1,11 +1,9 @@
 def month_list(startdate, enddate):
 
-   '''
-
-    Creates a list of months starting from a given start date to a given end date.
+    ''' Creates a list of months starting from a given start date to a given end date.
     Specified years must be either 2016 or 2017.
 
-    NB: The function will only work correctly if
+    NB: Function will only work correctly if
     dates are given in chronological order.
 
     ATTRIBUTES:

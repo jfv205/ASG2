@@ -1,12 +1,11 @@
-'''
-TO DO:
-    Unit testing
-'''
 
 def csv_save(data, postcode, start_date, end_date):
-    ''' Writes the filtered list of crimes to csv.
 
-    Optional by user.
+    '''
+
+    Writes the filtered list of crimes to csv.
+    Optional for user user to save/not save
+
     '''
     filename = postcode + '_from_' + start_date + '_to_' + end_date + '.csv'
 
@@ -25,3 +24,10 @@ def csv_save(data, postcode, start_date, end_date):
         new_file.write('%s' % row)
 
     new_file.close()
+
+
+if __name__ == '__main__':
+
+    print('testing csv_save.py')  # Unit Testing
+
+    print('All tests have run successfully!')

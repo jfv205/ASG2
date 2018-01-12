@@ -48,15 +48,19 @@ def validate_postcode(postcode):
 
     return valid
 
-def test_valid():
 
-    valid_format = ['A11AA', 'A111AA', 'AA11AA', 'A1A1AA', 'AA111AA', 'AA1A1AA', 'DT1 1AA', 'DT11 7XQ', 'PL25 3UH']
-    invalid_format = ['A1AA', 'AAAAAA', 'AAA1A11AA', 'AA', 'AA1AAAA', 'AA11111', 'DT1AA', 'DTXQ', '4L253UH']
+if __name__ == "__main__":  # Test the function using assert statements
+
+    # Lists containing valid and invalid dates
+    valid_format = ["A11AA", "A111AA", "AA11AA", "A1A1AA", "AA111AA", "AA1A1AA", "DT1 1AA", "DT11 7XQ", "PL25 3UH"]
+    invalid_format = ["A1AA", "AAAAAA", "AAA1A11AA", "AA", "AA1AAAA", "AA11111", "DT1AA", "DTXQ", "4L253UH"]
+
+    # Iterate through each lists, raise assertion error if test is unsuccessful
 
     for i in range(len(valid_format)):
-        validate = validate_postcode(valid_format[i])
-        print(validate)
+        assert validate_postcode(valid_format[i]) == True
 
     for j in range(len(invalid_format)):
-        validate = validate_postcode(invalid_format[j])
-        print(validate)
+        assert validate_postcode(invalid_format[j]) == False
+
+    print("All tests ran successfully!")

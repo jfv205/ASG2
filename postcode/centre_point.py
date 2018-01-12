@@ -27,3 +27,5 @@ def centre_point(postcode, filename):
 
             file.close()  # not good practise - won't be closed if postcode not found
             return(float(lat), float(lon))
+
+
