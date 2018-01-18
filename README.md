@@ -10,6 +10,8 @@ Due Date: Friday 12th Jan 2018
 - Develop-(Basic) branch - All existing files used in basic version.
 - **https://github.com/beth-harper/Python-Assessment**
 
+Please note: conflicts arose when trying to merge the two branches - therefore the Develop-(Basic) branch now holds all files used for the basic version of the program.
+
 **Files:**
 -
 - README.md - (v0.0.2)
