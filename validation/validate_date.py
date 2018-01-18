@@ -3,7 +3,9 @@
 
 def validate_date(date):
 
-    ''' Checks a string to determine if it is a valid date. Returns a boolean value,
+    '''
+
+    Checks a string to determine if it is a valid date. Returns a boolean value,
     where True indicates the date is valid, and the date which was tested.
     
     A string 'date' is taken as an argument for this function. If a single digit is
@@ -14,7 +16,9 @@ def validate_date(date):
     
     Returns a boolean value, where True indicates the date is valid, and
     the date which was tested. If the date is valid, it is returned in the format 'YYYY-MM'.
-    If invalid, it is returned in its original state. '''
+    If invalid, it is returned in its original state.
+
+    '''
 
     # List of month numbers
     months_in_year = ['01','02','03','04','05','06','07','08','09','10','11','12']
