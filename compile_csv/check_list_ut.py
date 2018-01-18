@@ -15,4 +15,3 @@ def empty_list(list_a):
     else:
         return True
 
-    if list_b
