@@ -30,8 +30,6 @@ def centre_point(postcode, filename):
 
 if __name__ == "__main__":
 
-    assert centre_point("EX1 3PB", "postcodes.csv") == (50.72761138, -3.475659092)
-
-
+    assert centre_point("EX1 3PB", "postcodes.csv") == (50.72761138, -3.47565992)
 
 
