@@ -1,9 +1,18 @@
-
+README.md - (v0.0.2)
 # Digital and Technology Solutions
 #### ECM1421 - Systems Development - Assignment 2
 
 
 Due Date: Friday 12th Jan 2018
+
+**Instructions**
+- Postcode must be entered in the following format:
+- All capital letters eg: EX167BX
+- Postcodes with 6 characters  eg: " EX4 3SR " must contain a space.
+
+**TROUBLESHOOTING**
+- If you have a valid postcode but you receive an error stating "postcode cannot be found."
+- Try adding or removing a space between the two postcode components.
 
 **Github**
 -
@@ -30,3 +39,5 @@ Please note: conflicts arose when trying to merge the two branches - therefore t
 - Felipe Warrener
 - Beth Harper
 - Jaime Viegas
+
+
