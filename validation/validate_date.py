@@ -75,4 +75,5 @@ if __name__ == "__main__":  # Test the function using assert statements
        print('Given date:', invalid_date_format[j], '\nReturned date:', date)
        print('Valid?', validate)
        print()
+
    print("All tests ran successfully!")

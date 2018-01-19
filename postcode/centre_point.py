@@ -1,11 +1,15 @@
 
 def centre_point(postcode, filename):
-    ''' Returns the latlong for the postcode.
+
+    '''
+
+    Returns the latlong for the postcode.
 
     This function checks each row for the postcode and returns the lat and long
     in the 9th and 10th column as floats for the postcode.
 
     Note: postcode has to be exactly as in the file.
+    
     '''
     postcodes = []
 
@@ -30,12 +34,12 @@ def centre_point(postcode, filename):
 # UNIT TESTING
 if __name__ == "__main__":
 
-assert centre_point("EX1 3PB", "postcodes.csv") == (50.72761138, -3.47565992)
-assert centre_point("EX167BX", "postcodes.csv") == (50.92217857, -3.37649249)
-assert centre_point("EX4 3SR", "postcodes.csv") == (50.72674566, -3.53502873)
-assert (centre_point("EX2 5DW", "postcodes.csv")) == (50.7166919, -3.50669422)
-assert (centre_point("EX4 6PX", "postcodes.csv")) == (50.73009844, -3.52075589)
+    assert centre_point("EX1 3PB", "postcodes.csv") == (50.72761138, -3.47565992)
+    assert centre_point("EX167BX", "postcodes.csv") == (50.92217857, -3.37649249)
+    assert centre_point("EX4 3SR", "postcodes.csv") == (50.72674566, -3.53502873)
+    assert (centre_point("EX2 5DW", "postcodes.csv")) == (50.7166919, -3.50669422)
+    assert (centre_point("EX4 6PX", "postcodes.csv")) == (50.73009844, -3.52075589)
 
-print("All tests ran successfully")
+print("All tests ran successfully!")
 
 

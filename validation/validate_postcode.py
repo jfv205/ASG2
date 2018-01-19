@@ -2,8 +2,12 @@
 
 def validate_postcode(postcode):
 
-    ''' Checks a string to determine if it is a valid postcode. Return boolean value where
-    True indicates the postcode is valid. '''
+    '''
+
+    Checks a string to determine if it is a valid postcode. Return boolean value where
+    True indicates the postcode is valid.
+
+    '''
 
     # Inital validity set to False
     valid = False
@@ -64,4 +68,5 @@ if __name__ == "__main__":  # Test the function using assert statements
 
     for j in range(len(invalid_format)):
         assert validate_postcode(invalid_format[j]) == False
+
     print("All tests ran successfully!")

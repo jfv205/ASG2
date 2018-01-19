@@ -1,13 +1,14 @@
-'''
-TO DO:
-    Unit testing
-'''
 
 def csv_save(data, postcode, start_date, end_date):
-    ''' Writes the filtered list of crimes to csv.
+
+    '''
+
+    Writes the filtered list of crimes to csv.
 
     Optional by user.
+
     '''
+
     filename = postcode + '_from_' + start_date + '_to_' + end_date + '.csv'
 
     new_file = open(filename, 'w')

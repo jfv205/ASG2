@@ -2,12 +2,15 @@ from filter.geodist import distance
 from filter.bounding_box import bounding_box
 
 def crimes_in_box(post_lat, post_lon, radius):
+
     """
+
     Returns list of crimes within radius.
 
     Goes through compiled CSV file and checks whether the latlong is the bounding box,
     and then calculates distance from the postcode geoposition. This is added to a new
     nested list [[row], [row], [row]] of crimes within the list with the heading row.
+
     """
     crime_loc = []
 
@@ -37,6 +40,7 @@ def crimes_in_box(post_lat, post_lon, radius):
     return crimes_list
 
 if __name__ == "__main__":
+
     print("testing crimes in box")
     assert empty_list(crimes_in_box(50.4127679, -4.085751, 1))
     assert empty_list(crimes_in_box(50.71413737, -2.43711588, 2))
